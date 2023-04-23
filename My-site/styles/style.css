@@ -10,7 +10,8 @@ h1 {
   margin: 0;
   padding: 20px 0;
   color: #00539F;
-  text-shadow: 3px 3px 1px black;
+  text-shadow: 3px 2px 3px rgb(0, 0, 0);
+  letter-spacing: 2px;
 }
 
 li {
@@ -80,4 +81,10 @@ hr {
   font-size: 16px;
   text-align: center;
   line-height: 2;
+}
+
+.positioned {
+  position: absolute;
+  top: 20;
+  left: 700;
 }

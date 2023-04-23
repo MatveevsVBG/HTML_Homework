@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" type='text/css'>
   <link href="styles/style.css" rel="stylesheet" type="text/css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
+  <script src="scripts/script.js" defer></script>
   <title>Сайт о котах</title>
 </head>
-
 <body>
+  <div class="positioned">
+    <input type="email" placeholder="Введите email" id="input_email">
+    <button type="button" onclick="getEmail();">Отправить</button>
+  </div>
   <h1>Котофеи</h1>
   <p class="main_pic">
     <img src="images/RedCat.jpg" alt="Sleeping Red Cat">
@@ -59,5 +64,4 @@
     <img src="images/tom8.jpg" alt="Cat Tom6" height="180">
   </div>
 </body>
-
 </html>
